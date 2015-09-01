@@ -35,6 +35,14 @@ def vector_to_matrix(vec):
 Methods like these can be eliminated, but occasionally the numpy matrix type can be useful. 
 Such as if you need to do lots of matrix exponentiation and multiplication. The ndarray methods for this are more verbose. 
 
+# Output
+
+With a singularly terrible (that at least doesn't overfit!) loss function:
+
+```python
+########## result ##########
+correct: 175, total: 284, accuracy: 61.619 %
+```
 
 ## Support
 
