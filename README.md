@@ -3,7 +3,8 @@ Custom MLR python 2 implementaion
 
 ## Development
 
-I developed this when I was looking for python softmax regression implementations are found none that illuminated the internals of the algorithm. I decided to tune my own based off other C++ implmentations I found
+I developed this when I was looking for python softmax regression implementations are found none that illuminated the internals of the algorithm. I decided to tune my own based off other C++ implmentations I found.
+
 Its not perfect, but I've moved on to other algorithms
 
 Useful for binary classification with regularized data
@@ -13,7 +14,7 @@ The files I used are the Wisconson Breast Cancer dataset
 ## Usage
 
 Various linear algebra methods are implemented by hand but feel free to get around them with numpy
-```
+```python
 def vector_to_matrix(vec):
 
     rows = len(vec[0])
@@ -26,7 +27,7 @@ def vector_to_matrix(vec):
     return mat
 ```
 Becomes 
-```
+```python
 def vector_to_matrix(vec):
     return np.mat(vec)
 ```
