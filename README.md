@@ -37,7 +37,7 @@ Such as if you need to do lots of matrix exponentiation and multiplication. The 
 
 # Output
 
-With a singularly terrible (that at least doesn't overfit!) loss function:
+With a sort-of-terrible terrible (that at least doesn't overfit!) learned function:
 
 ```python
 ########## result ##########
